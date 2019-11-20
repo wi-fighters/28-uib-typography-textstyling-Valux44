@@ -1,14 +1,49 @@
 /* css reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 40px;
+  padding: 40px;
+  font-family: Yanone Kaffeesatz, sans-serif;
+  color: blueviolet;
 }
 
 blockquote {
-    margin: 0 0 0 30px;
+  margin: 0 0 0 30px;
+  line-height: 2rem;
 }
 
+h1,
+h3 {
+  font-family: Orbitron, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: -0.1rem;
+  word-spacing: 0.5rem;
+}
+
+span {
+  text-decoration-line: line-through;
+}
+
+em {
+  text-transform: capitalize;
+}
+
+strong {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a {
+  color: hotpink;
+  text-decoration-line: none;
+}
